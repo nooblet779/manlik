@@ -128,8 +128,10 @@ alias btop="/etc/opt/bashtop/./bashtop"
 alias zshconfig="micro ~/.zshrc"
 alias a="d ;1"
 alias z="cd .."
+alias sup="updatedb"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias plays="mpv --no-video"
+alias s="~"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source /etc/opt/zsh-autocomplete/zsh-autocomplete.plugin.zsh
