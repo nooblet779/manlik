@@ -79,7 +79,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git web-search sudo battery extract zsh-syntax-highlighting)
+plugins=(git web-search extract zsh-syntax-highlighting)
 export EDITOR=micro 
 
 source $ZSH/oh-my-zsh.sh
@@ -130,6 +130,8 @@ alias a="d ;1"
 alias z="cd .."
 alias sup="updatedb"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias plexstart="systemctl start plexmediaserver.service"
+alias plexstop="systemctl stop plexmediaserver.service"
 alias plays="mpv --no-video"
 alias s="~"
 alias desk="xrandr --output DP-1 --mode 1920x1080 --rate 120"
