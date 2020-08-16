@@ -133,6 +133,7 @@ alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias plexstart="systemctl start plexmediaserver.service"
 alias plexstop="systemctl stop plexmediaserver.service"
 alias plays="mpv --no-video"
+#test
 alias s="~"
 alias desk="xrandr --output DP-1 --mode 1920x1080 --rate 120"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
