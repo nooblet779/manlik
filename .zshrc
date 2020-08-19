@@ -112,7 +112,7 @@ source $ZSH/oh-my-zsh.sh
 alias c="clear"
 alias b="bash"
 alias hunt="eopkg search"
-alias in="eopkg install"
+alias in="sudo eopkg install"
 alias out="eopkg remove"
 alias up="sudo eopkg upgrade"
 alias snaps="snap search"
