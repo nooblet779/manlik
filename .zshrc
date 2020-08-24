@@ -135,6 +135,7 @@ alias plexstop="systemctl stop plexmediaserver.service"
 alias plays="mpv --no-video"
 alias big="du -s -h * | sort -n"
 alias s="~"
+alias cast="castero"
 alias desk="xrandr --output DP-1 --mode 1920x1080 --rate 120"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
