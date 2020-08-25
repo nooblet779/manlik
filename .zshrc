@@ -127,7 +127,7 @@ alias power="p10k configure"
 alias btop="/etc/opt/bashtop/./bashtop"
 alias zshconfig="micro ~/.zshrc"
 alias a="d ;1"
-alias z="cd ..; l"
+alias z="cd ..;ls"
 alias sup="updatedb"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias plexstart="systemctl start plexmediaserver.service"
