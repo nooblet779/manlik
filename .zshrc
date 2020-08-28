@@ -79,7 +79,11 @@ COMPLETION_WAITING_DOTS="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git web-search extract zsh-syntax-highlighting)
+
+#git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+plugins=(git web-search extract zsh-syntax-highlighting zsh-autosuggestions)
+
 export EDITOR=micro 
 
 source $ZSH/oh-my-zsh.sh
@@ -139,7 +143,7 @@ alias cast="castero"
 alias desk="xrandr --output DP-1 --mode 1920x1080 --rate 120"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /etc/opt/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+#source /etc/opt/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 
 #Basic usage example:
