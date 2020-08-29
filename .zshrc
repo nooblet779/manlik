@@ -132,7 +132,7 @@ alias btop="/etc/opt/bashtop/./bashtop"
 alias zshconfig="micro ~/.zshrc"
 alias a="d ;1"
 alias z="cd ..;ls"
-alias sup="updatedb"
+alias sup="sudo updatedb"
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias plexstart="systemctl start plexmediaserver.service"
 alias plexstop="systemctl stop plexmediaserver.service"
@@ -141,6 +141,7 @@ alias big="du -s -h * | sort -n"
 alias s="~"
 alias cast="castero"
 alias desk="xrandr --output DP-1 --mode 1920x1080 --rate 120"
+alias ctop="cointop"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #source /etc/opt/zsh-autocomplete/zsh-autocomplete.plugin.zsh
