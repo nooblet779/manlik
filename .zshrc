@@ -144,10 +144,10 @@ alias desk="xrandr --output DP-1 --mode 1920x1080 --rate 120"
 alias cht="cht.sh"
 alias chm=" sudo chmod +x"
 alias ctop="cointop"
-alias dot="cd ~/dotfiles"
-alias mus="cd ~/Music"
-alias pics="cd ~/Pictures"
-alias doc="cd ~/Documents"
+alias dot="cd ~/dotfiles ; ls"
+alias mus="cd ~/Music ; ls"
+alias pics="cd ~/Pictures ; ls"
+alias doc="cd ~/Documents ; ls"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #source /etc/opt/zsh-autocomplete/zsh-autocomplete.plugin.zsh
