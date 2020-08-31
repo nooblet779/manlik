@@ -145,6 +145,8 @@ alias cht="cht.sh"
 alias chm=" sudo chmod +x"
 alias ctop="cointop"
 alias dot="cd ~/dotfiles"
+alias mus="cd ~/Music"
+alias pics="cd ~/Pictures"
 alias doc="cd ~/Documents"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
