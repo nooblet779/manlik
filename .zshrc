@@ -81,6 +81,7 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 
 #git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+#git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 plugins=(git web-search extract zsh-syntax-highlighting zsh-autosuggestions)
 
@@ -123,7 +124,7 @@ alias snaps="snap search"
 alias sin="snap install"
 alias snout="snap remove"
 alias mi="micro"
-alias rm="shred -z -u"
+alias rm="shred -u"
 alias pdf="okular"
 alias play="mpv"
 alias pic="eog"
@@ -170,3 +171,4 @@ export PATH="$PATH:$NPM_PACKAGES/bin"
 # Preserve MANPATH if you already defined it somewhere in your config.
 # Otherwise, fall back to `manpath` so we can inherit from `/etc/manpath`.
 export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
+source ~/powerlevel10k/powerlevel10k.zsh-theme
