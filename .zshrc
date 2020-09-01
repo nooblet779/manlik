@@ -149,6 +149,8 @@ alias mus="cd ~/Music ; ls"
 alias pics="cd ~/Pictures ; ls"
 alias bat="batcat"
 alias doc="cd ~/Documents ; ls"
+alias vpnc="sudo protonvpn c"
+alias vpnd="sudo protonvpn d"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #source /etc/opt/zsh-autocomplete/zsh-autocomplete.plugin.zsh
