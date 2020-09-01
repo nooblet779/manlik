@@ -147,6 +147,7 @@ alias ctop="cointop --hide-chart"
 alias dot="cd ~/dotfiles ; ls"
 alias mus="cd ~/Music ; ls"
 alias pics="cd ~/Pictures ; ls"
+alias bat="batcat"
 alias doc="cd ~/Documents ; ls"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
