@@ -1,0 +1,198 @@
+* commit 793b0e2d74bc94a2447637ac49629f388bdaf7f1 (HEAD -> master, origin/master)
+| Author: nooblet779 <bmkamunyu@gmail.com>
+| Date:   Tue Sep 1 23:26:22 2020 +0300
+| 
+|     modded neofetch.conf
+| 
+* commit 0664e98a5da0c3e009eb947cc09eb1fb32c8117b
+| Author: nooblet779 <bmkamunyu@gmail.com>
+| Date:   Tue Sep 1 23:18:51 2020 +0300
+| 
+|     modded neofetch.conf
+| 
+* commit ca41aa28d521d0c9ae13eb2c7f6fb83228296c1b
+| Author: sibs <sibs@pop-os.localdomain>
+| Date:   Tue Sep 1 23:09:57 2020 +0300
+| 
+|     modded config files and added neofetch.conf
+|   
+*   commit 69ca475a210b539f2d94d16f1be9e62b9b69c9ed
+|\  Merge: 8df02c2 77e2662
+| | Author: sibs <sibs@pop-os.localdomain>
+| | Date:   Tue Sep 1 22:55:17 2020 +0300
+| | 
+| |     pop bashrc, castero & zshrc
+| | 
+| * commit 77e2662108af5924d0a81396228579c38a5aa418
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Tue Sep 1 00:05:36 2020 +0300
+| | 
+| |     modded alias
+| | 
+| * commit 48bb8e724124b846d147ca1b41e8974df486c1a6
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Mon Aug 31 21:36:57 2020 +0300
+| | 
+| |     castero.conf
+| | 
+| * commit cde3a786037410376e766296aa68dd0644216596
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Mon Aug 31 19:15:29 2020 +0300
+| | 
+| |     modded alias
+| | 
+| * commit 59e7fad99b3ab851a6d699f6e4c4a88e6c734a0f
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Mon Aug 31 18:44:35 2020 +0300
+| | 
+| |     modded alias
+| | 
+| * commit 18c74747f474d2e6602a82d1396694b70b529b79
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Mon Aug 31 18:42:04 2020 +0300
+| | 
+| |     added alias
+| | 
+| * commit f3537224f1ccaf9fa7b7f78c33c5b3dfdfdea767
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Mon Aug 31 17:04:40 2020 +0300
+| | 
+| |     npm config
+| | 
+| * commit 5829cc4e112ea7ca86f915acc503d15d8b1d903d
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Mon Aug 31 16:51:13 2020 +0300
+| | 
+| |     modded alias
+| | 
+| * commit 1c224adf82ca7e0db7e780c52ff2342473817134
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Mon Aug 31 16:43:20 2020 +0300
+| | 
+| |     modded aliases
+| | 
+| * commit db743ab3880530998d9e674246ebb6385d18d247
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Sat Aug 29 04:31:10 2020 +0300
+| | 
+| |     modded alias
+| | 
+| * commit 7b30afcf9a4401c62ba1f34b5bbc84e3840bd780
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Fri Aug 28 19:12:10 2020 +0300
+| | 
+| |     modded suggestions & highlighting
+| | 
+| * commit 41d469a0b9c7d7019a96e52c9542e511959e7a0a
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Wed Aug 26 14:38:38 2020 +0300
+| | 
+| |     modded alias
+| | 
+| * commit 8133f5ef2095377da02b5503d8d3a242373a7333
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Tue Aug 25 21:27:46 2020 +0300
+| | 
+| |     modded alias
+| | 
+| * commit 23bca2e7f2ff188802a4baf3e8e5def2e8e7fec2
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Tue Aug 25 21:25:18 2020 +0300
+| | 
+| |     modded alias
+| | 
+| * commit 8192c13b30a77ffc5ed46572a5c41c85d9f5e2a0
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Tue Aug 25 21:21:37 2020 +0300
+| | 
+| |     updated alias
+| | 
+| * commit 09cde59867d7ee20e475b8653e8168cf625db259
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Mon Aug 24 19:32:15 2020 +0300
+| | 
+| |     castero added
+| | 
+| * commit ffe0d798255a1e4ea10b6fd92689f2856a656eeb
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Sat Aug 22 12:03:14 2020 +0300
+| | 
+| |     modded #
+| | 
+| * commit cb8eae0fe40d746094a2677bb473ec4503266ef5
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Wed Aug 19 21:19:37 2020 +0300
+| | 
+| |     added alias
+| | 
+| * commit 0e42edef3feb4cd883b172a63e201a51bded214a
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Sun Aug 16 23:00:04 2020 +0300
+| | 
+| |     config
+| | 
+| * commit 333de7636d8ce45573444b20730fa1d5b1ad79e3
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Sun Aug 16 22:56:46 2020 +0300
+| | 
+| |     test config
+| | 
+| * commit 192b4667491251e6fa7a7549adfb6e87c734ba8f
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Sun Aug 16 18:50:00 2020 +0300
+| | 
+| |     plexserver
+| | 
+| * commit 577f0b0c043383a06fadefc99ffd1fae8f438e84
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Sat Aug 15 23:48:40 2020 +0300
+| | 
+| |     syntax highlighting
+| | 
+| * commit 68346232d11a36625a526d91440d54df813c61d9
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Sat Aug 15 23:43:20 2020 +0300
+| | 
+| |     desk
+| | 
+| * commit cdbe037b706122eca3c98dac1a7e32448b01b4dd
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Sat Aug 15 13:31:42 2020 +0300
+| | 
+| |     new shortcut
+| | 
+| * commit e7333a7f63b41d69d996e2ba04e723bc533e39d9
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Sat Aug 15 11:27:30 2020 +0300
+| | 
+| |     small changes
+| | 
+| * commit 355e3d490fb8dd9c550a9f242f0b8905326a7d53
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Fri Aug 14 20:16:41 2020 +0300
+| | 
+| |     updated
+| | 
+| * commit 4bc9f08b2facddcd18596dfc3514c164c5003889
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Fri Aug 14 20:14:57 2020 +0300
+| | 
+| |     updates
+| | 
+| * commit 88deee64fc95c3c1e726f5925dd23e372434dfb9
+| | Author: manlik <bbryan6@gmail.com>
+| | Date:   Fri Aug 14 20:02:20 2020 +0300
+| | 
+| |     added usage instructions
+| | 
+| * commit 35406b0251033c7a7b49c5e60678fb6053a053b2
+|   Author: manlik <bbryan6@gmail.com>
+|   Date:   Fri Aug 14 19:49:25 2020 +0300
+|   
+|       .bashrc
+| 
+* commit 8df02c2c75f2bf720c9c0a29e95ee822a6aaeb6b
+  Author: sibs <sibs@pop-os.localdomain>
+  Date:   Tue Sep 1 22:24:52 2020 +0300
+  
+      pop bashrc & zshrc
