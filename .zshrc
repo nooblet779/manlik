@@ -115,10 +115,17 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias c="clear"
 alias b="bash"
+<<<<<<< HEAD
 alias hunt="sudo apt search"
 alias in="sudo apt install"
 alias out="sudo apt remove; sudo apt auto-remove -y"
 alias up="sudo apt update -y ; sudo apt upgrade -y"
+=======
+alias hunt="eopkg search"
+alias in="sudo eopkg install"
+alias out="sudo eopkg remove"
+alias up="sudo eopkg upgrade"
+>>>>>>> 77e2662108af5924d0a81396228579c38a5aa418
 alias snaps="snap search"
 alias sin="snap install"
 alias snout="snap remove"

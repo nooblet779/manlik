@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -119,3 +120,17 @@ neofetch
 zsh
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
+=======
+source /usr/share/defaults/etc/profile
+
+
+neofetch
+
+zsh
+oh-my-zsh
+
+
+#set PATH "$HOME/.config/bin:$PATH"
+#source "$HOME/.bashrc"
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' >> $HOME/.bashrc
+>>>>>>> 77e2662108af5924d0a81396228579c38a5aa418
