@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -116,19 +115,12 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-neofetch
-zsh
-
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
-=======
-source /usr/share/defaults/etc/profile
-
 
 neofetch
 
 zsh
+
 oh-my-zsh
-
 
 #set PATH "$HOME/.config/bin:$PATH"
 #source "$HOME/.bashrc"
