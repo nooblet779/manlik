@@ -102,7 +102,7 @@
     battery               # internal battery
     time                    # current time
    # wifi                  # wifi speed
-    ip                    # ip address and bandwidth usage for a specified network interface
+   # ip                    # ip address and bandwidth usage for a specified network interface
     # =========================[ Line #2 ]=========================
     newline
     
