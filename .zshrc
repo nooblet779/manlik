@@ -83,7 +83,7 @@ COMPLETION_WAITING_DOTS="true"
 #git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 #git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
-plugins=(git web-search extract zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git web-search extract zsh-syntax-highlighting zsh-autosuggestions sudo)
 
 export EDITOR=micro 
 
