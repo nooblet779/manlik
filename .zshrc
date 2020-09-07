@@ -115,6 +115,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias c="clear"
+alias cc="clear ; ls"
 alias b="bash"
 alias hunt="sudo apt search"
 alias in="sudo apt install"
