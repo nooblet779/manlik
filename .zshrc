@@ -157,6 +157,7 @@ alias bat="batcat"
 alias doc="cd ~/Documents ; ls"
 alias vpnc="sudo protonvpn c"
 alias vid=" ~/Videos"
+alias power-update="git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull"
 alias vpnd="sudo protonvpn d"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
