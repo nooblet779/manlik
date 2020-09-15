@@ -116,6 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-neofetch
 zsh
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME
