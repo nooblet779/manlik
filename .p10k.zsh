@@ -153,7 +153,7 @@
   fi
 
   # Default background color.
-  typeset -g POWERLEVEL9K_BACKGROUND=233
+  typeset -g POWERLEVEL9K_BACKGROUND=237
 
   # Separator between same-color segments on the left.
   typeset -g POWERLEVEL9K_LEFT_SUBSEGMENT_SEPARATOR='%244F\u2571'
@@ -1440,7 +1440,7 @@
 
   #########################[ proxy: system-wide http/https/ftp proxy ]##########################
   # Proxy color.
-  typeset -g POWERLEVEL9K_PROXY_FOREGROUND=68
+  typeset -g POWERLEVEL9K_PROXY_FOREGROUND=70
   # Custom icon.
   # typeset -g POWERLEVEL9K_PROXY_VISUAL_IDENTIFIER_EXPANSION='⭐'
 
@@ -1449,7 +1449,7 @@
   typeset -g POWERLEVEL9K_BATTERY_LOW_THRESHOLD=20
   typeset -g POWERLEVEL9K_BATTERY_LOW_FOREGROUND=160
   # Show battery in green when it's charging or fully charged.
-  typeset -g POWERLEVEL9K_BATTERY_{CHARGING,CHARGED}_FOREGROUND=2
+  typeset -g POWERLEVEL9K_BATTERY_{CHARGING,CHARGED}_FOREGROUND=70
   # Show battery in yellow when it's discharging.
   typeset -g POWERLEVEL9K_BATTERY_DISCONNECTED_FOREGROUND=226
   # Battery pictograms going from low to high level of charge.
