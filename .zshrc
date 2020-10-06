@@ -182,3 +182,4 @@ export PATH="$PATH:$NPM_PACKAGES/bin"
 export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 alias pen=~/Documents/pentesting/
+alias lin=~/Documents/linuxsecurity/
