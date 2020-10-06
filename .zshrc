@@ -150,17 +150,10 @@ alias desk="xrandr --output DP-1 --mode 1920x1080 --rate 120"
 alias cht="~/bin/./cht.sh"
 alias chm=" sudo chmod +x"
 alias ctop="cointop --hide-chart"
-alias dot="cd ~/dotfiles ; ls"
-alias mus="cd ~/Music ; ls"
-alias pics="cd ~/Pictures ; ls"
-alias cv="~/Documents/cv"
 alias bat="batcat"
-alias doc="cd ~/Documents ; ls"
 alias vpnc="sudo protonvpn c"
-alias vid=" ~/Videos"
 alias power-update="git -C ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k pull"
 alias vpnd="sudo protonvpn d"
-alias down="~/Downloads"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #source /etc/opt/zsh-autocomplete/zsh-autocomplete.plugin.zsh
@@ -183,3 +176,9 @@ export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 alias pen=~/Documents/pentesting/
 alias lin=~/Documents/linuxsecurity/
+
+#autojump
+
+[[ -s /home/sibs/.autojump/etc/profile.d/autojump.sh ]] && source /home/sibs/.autojump/etc/profile.d/autojump.sh
+
+	autoload -U compinit && compinit -u
