@@ -117,4 +117,8 @@ if ! shopt -oq posix; then
 fi
 
 zsh
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'export NODEJS_HOME=/opt/node/bin
+export PATH=$NODEJS_HOME:$PATH
+NPM_PACKAGES="${HOME}/.npm-packages"
+export PATH="$PATH:$NPM_PACKAGES/bin"
+export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"

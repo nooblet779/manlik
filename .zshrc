@@ -84,8 +84,8 @@ COMPLETION_WAITING_DOTS="true"
 
 #git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 #git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-
-plugins=(git web-search extract zsh-syntax-highlighting zsh-autosuggestions sudo autojump)
+# https://github.com/Valiev/almostontop copy folder to ~/.oh-my-zsh/plugins
+plugins=(git web-search extract zsh-syntax-highlighting zsh-autosuggestions sudo autojump almostontop)
 
 export EDITOR=micro 
 
@@ -182,3 +182,16 @@ alias lin=~/Documents/linuxsecurity/
 #[[ -s /home/sibs/.autojump/etc/profile.d/autojump.sh ]] && source /home/sibs/.autojump/etc/profile.d/autojump.sh
 
 #	autoload -U compinit && compinit -u
+export NODEJS_HOME=/opt/node/bin
+export PATH=$NODEJS_HOME:$PATH
+NPM_PACKAGES="${HOME}/.npm-packages"
+export PATH="$PATH:$NPM_PACKAGES/bin"
+export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
+
+NPM_PACKAGES="${HOME}/.npm-packages"
+
+export PATH="$PATH:$NPM_PACKAGES/bin"
+
+# Preserve MANPATH if you already defined it somewhere in your config.
+# Otherwise, fall back to `manpath` so we can inherit from `/etc/manpath`.
+export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"alias mkd="take"
