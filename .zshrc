@@ -85,7 +85,8 @@ COMPLETION_WAITING_DOTS="true"
 #git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 #git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 # https://github.com/Valiev/almostontop copy folder to ~/.oh-my-zsh/plugins
-plugins=(git web-search extract zsh-syntax-highlighting zsh-autosuggestions sudo autojump almostontop)
+plugins=(tig git web-search extract zsh-syntax-highlighting 
+zsh-autosuggestions sudo autojump almostontop sublime)
 
 export EDITOR=micro 
 
@@ -195,3 +196,10 @@ export PATH="$PATH:$NPM_PACKAGES/bin"
 # Preserve MANPATH if you already defined it somewhere in your config.
 # Otherwise, fall back to `manpath` so we can inherit from `/etc/manpath`.
 export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"alias mkd="take"
+alias python3="python3.8"
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/bitcomplete bit
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/bitcomplete bit
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/bitcomplete bit
