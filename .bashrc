@@ -124,3 +124,4 @@ export PATH="$PATH:$NPM_PACKAGES/bin"
 export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
 complete -C /usr/local/bin/bitcomplete bit
 complete -C /usr/local/bin/bitcomplete bit
+complete -C /usr/local/bin/bitcomplete bit

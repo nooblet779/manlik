@@ -86,7 +86,7 @@ COMPLETION_WAITING_DOTS="true"
 #git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 # https://github.com/Valiev/almostontop copy folder to ~/.oh-my-zsh/plugins
 plugins=(tig git web-search extract zsh-syntax-highlighting 
-zsh-autosuggestions sudo autojump almostontop sublime)
+zsh-autosuggestions sudo autojump almostontop)
 
 export EDITOR=micro 
 
@@ -201,5 +201,10 @@ autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/bitcomplete bit
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/bitcomplete bit
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/bitcomplete bit
+
+poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry
+
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/bitcomplete bit
