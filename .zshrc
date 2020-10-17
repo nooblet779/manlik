@@ -174,7 +174,7 @@ export PATH="$PATH:$NPM_PACKAGES/bin"
 # Preserve MANPATH if you already defined it somewhere in your config.
 # Otherwise, fall back to `manpath` so we can inherit from `/etc/manpath`.
 export MANPATH="${MANPATH-$(manpath)}:$NPM_PACKAGES/share/man"
-source ~/powerlevel10k/powerlevel10k.zsh-theme
+#source ~/powerlevel10k/powerlevel10k.zsh-theme
 alias pen=~/Documents/pentesting/
 alias lin=~/Documents/linuxsecurity/
 
@@ -204,7 +204,6 @@ complete -o nospace -C /usr/local/bin/bitcomplete bit
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/bitcomplete bit
 
-poetry completions zsh > $ZSH_CUSTOM/plugins/poetry/_poetry
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/bitcomplete bit
