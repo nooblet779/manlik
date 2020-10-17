@@ -1,0 +1,8 @@
+{
+	"color_scheme": "Packages/Monokai Dark/Monokai Dark.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "predawn.sublime-theme"
+}
