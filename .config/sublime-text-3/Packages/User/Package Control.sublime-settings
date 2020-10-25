@@ -6,11 +6,11 @@
 	"installed_packages":
 	[
 		"Anaconda",
-		"BracketGuard",
 		"BracketHighlighter",
-		"Kite Python Autocomplete",
+		"GitGutter",
 		"Monokai Dark",
 		"Package Control",
-		"Predawn"
+		"Predawn",
+		"SideBarEnhancements"
 	]
 }
