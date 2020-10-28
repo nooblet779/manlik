@@ -117,7 +117,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias btop="bpytop"
+alias btop="bashtop"
 alias c="clear"
 alias cc="clear ; ls -a"
 alias lt="ls -lth"
