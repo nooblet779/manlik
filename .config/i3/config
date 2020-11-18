@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 8
+font pango:MesloLGS NF 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -181,8 +181,11 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {	
 		position top
-        status_command i3status
+		status_command i3status    
 }
+
+# Lock screen
+bindsym $Mod+Control+l exec --no-startup-id i3lock-fancy
 
 #Monitor settings
 exec xrandr --output eDP1 --mode 1368x768 --pos 1920x40 --rotate normal --output DP1 --primary --mode 1920x1080 --rate 120
