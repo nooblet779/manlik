@@ -213,3 +213,8 @@ mode "num" {
         bindsym Num_Lock mode "default"
 }
 bindsym Num_Lock mode "num"
+
+# i3gaps
+for_window [class="^.*"] border pixel 7
+gaps inner 5
+gaps outer 5
