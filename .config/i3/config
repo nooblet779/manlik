@@ -41,7 +41,10 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+
+#bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec konsole
+
 
 # kill focused window
 bindsym $mod+q kill
@@ -187,9 +190,14 @@ exec xrandr --output eDP1 --mode 1368x768 --pos 1920x40 --rotate normal --output
 #Night light control
 exec redshift-gtk
 
+#Backlight controller
+bindsym XF86MonBrightnessUp exec xbacklight -inc 10 # increase screen brightness
+bindsym XF86MonBrightnessDown exec xbacklight -dec 10 # decrease screen brightness
+
+
 # Nitrogen wallpaper manager
 exec --no-startup-id nitrogen --restore
-
+exec --no-startup-id /usr/bin/caffeine-indicator
 
 # Enable/disable caps mode
 mode "caps" {
