@@ -108,6 +108,7 @@ plugins=(git sudo extract web-search almostontop)
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 alias pac="pacman -Q | wc -l"
+alias paclear="sudo rm /var/lib/pacman/db.lck"
 alias pacl="pacman -Q | less"
 alias btop="bpytop"
 alias c="clear"

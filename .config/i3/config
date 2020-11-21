@@ -117,9 +117,9 @@ set $ws1 "1:  Terminal"
 set $ws2 "2:  Firefox"
 set $ws3 "3:  Bitwarden"
 set $ws4 "4:  Discord"
-set $ws5 "5:  Telegram"
-set $ws6 "6"
-set $ws7 "7"
+set $ws5 "5:  Telegram"
+set $ws6 "6   Steam"
+set $ws7 "7   VirtualBox"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
@@ -206,8 +206,9 @@ bar {
 # Lock screen
 bindsym $Mod+Control+l exec --no-startup-id i3lock-fancy
 
+
 #Monitor settings
-exec xrandr --output DP1 --primary --mode 1920x1080 --rate 120 --output eDP1 --mode 1368x768 --pos 1920x40 --rotate normal
+exec xrandr --output DP1 --primary --mode 1920x1080 --rate 120 --output eDP1 --mode 1368x768 --pos 1920x40 --rotate normal --rate 50
 
 #Night light control
 exec redshift-gtk
@@ -234,7 +235,7 @@ mode "num" {
 bindsym Num_Lock mode "num"
 
 # i3gaps
-for_window [class="^.*"] border pixel 7
+for_window [class="^.*"] border pixel 5
 gaps inner 4
 gaps outer 4
  
@@ -245,3 +246,17 @@ for_window [class="firefox"] move to workspace $ws2
 for_window [class="Bitwarden"] move to workspace $ws3
 for_window [class="discord"] move to workspace $ws4
 for_window [class="TelegramDesktop"] move to workspace $ws5
+for_window [class="Steam"] move to workspace $ws6
+for_window [class="VirtualBox Manager"] move to workspace $ws7
+
+
+# Workspaces on specific screens                                                 
+workspace 1 output eDP1                                                          
+workspace 2 output DP1                                                         
+workspace 3 output DP1                                                         
+workspace 4 output DP1                                                          
+workspace 5 output DP1 
+
+
+# Moving workspaces between screens                                              
+bindsym $mod+m move workspace to output right 
