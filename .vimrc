@@ -50,3 +50,9 @@ augroup END
 if has('syntax') && has('eval')
   packadd! matchit
 endif
+
+set ruler
+set showcmd
+set incsearch
+set sidescroll=10
+
