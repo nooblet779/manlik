@@ -43,6 +43,7 @@ augroup END
 
 " Add optional packages.
 "
+autocmd vimenter * NERDTree
 " The matchit plugin makes the % command work better, but it is not backwards
 " compatible.
 " The ! means the package won't be loaded right away but when plugins are
@@ -55,4 +56,4 @@ set ruler
 set showcmd
 set incsearch
 set sidescroll=10
-
+colorscheme wellsokai

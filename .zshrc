@@ -106,7 +106,7 @@ plugins=(git sudo extract web-search almostontop)
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-
+alias rr="ranger"
 alias pac="pacman -Q | wc -l"
 alias paclear="sudo rm /var/lib/pacman/db.lck"
 alias pacl="pacman -Q | less"
