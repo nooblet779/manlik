@@ -76,7 +76,7 @@ DISABLE_AUTO_UPDATE="true"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git sudo extract web-search almostontop)
+plugins=(git sudo extract web-search almostontop autojump)
 
 
 # User configuration
