@@ -270,7 +270,10 @@ workspace 10 output eDP1
 
 # Moving workspaces between screens                                              
 bindsym $mod+m move workspace to output right 
-
+# Scrot
+bindsym --release Print exec scrot -s $HOME/Pictures/'%Y-%m-%d_%H:%M:%S'.png
 
 bindsym Shift+$Mod+Q exec $/home/.config/scripts/shutdown_menu
+
+
 
